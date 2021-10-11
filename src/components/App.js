@@ -6,6 +6,7 @@ const App = () => {
     <div>
       <ClassBasedCount />
       <FunctionBasedCount />
+      <hr />
     </div>
   );
 };

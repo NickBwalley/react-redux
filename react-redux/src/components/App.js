@@ -1,8 +1,13 @@
 import React from "react";
-import Count from "./Count";
+import { ClassBasedCount, FunctionBasedCount } from "./Count";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <ClassBasedCount />
+      <FunctionBasedCount />
+    </div>
+  );
 };
 
 export default App;

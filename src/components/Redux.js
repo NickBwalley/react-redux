@@ -29,7 +29,7 @@ const createClaim = (name, amountOfMoneyToCollect) => {
   };
 };
 
-//Reducers (departments)
+// REDUCERS (departments)
 const claimsHistory = (oldListOfClaims = [], action) => {
   if (action.type === "CREATE_ACTION") {
     // we care about this action
